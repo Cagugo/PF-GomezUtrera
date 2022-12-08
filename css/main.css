@@ -254,4 +254,15 @@ footer .container {
   transition: 1s;
 }
 
+@media (max-width: 768px) {
+  .columns {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .columns {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
