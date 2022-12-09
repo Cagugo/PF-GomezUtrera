@@ -203,7 +203,7 @@ header{
 form {
     width: 450px;
     margin: auto;
-    background-color: rgba(0,0,0,0.4);
+    background-color: $background_color_5;
     padding: 10px 20px;
     box-sizing: border-box;
     margin-top: 20px;
@@ -226,8 +226,8 @@ form {
     }
     
     #boton{
-        background: #31384A;
-        color: #fff;
+        background: $background-color_1;
+        color: $color_4;
         padding: 20px;
     }
     
